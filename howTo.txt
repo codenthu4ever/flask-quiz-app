@@ -1,0 +1,36 @@
+
+# Flask Quiz Application
+
+This is a simple quiz application built using Flask, where users can answer quiz questions and view their scores on a leaderboard.
+
+## Setup Instructions
+
+### 1. Install Flask
+
+Ensure that you have Flask installed. If not, you can install it using pip:
+
+pip install Flask
+
+### 2. Modify the Flask Application
+
+Modify the Flask application to run on your local machine and allow access from other devices on the same network. In the Flask script (`app.py`), update the last line to:
+
+```python
+app.run(host='0.0.0.0', debug=True)
+3. Get Your Local IP Address
+Determine the local IP address of your laptop. You can usually find this by running ipconfig (Windows) or ifconfig (macOS/Linux) in the command line and looking for the IPv4 address associated with your network interface.
+
+4. Share the Local IP Address
+Share your local IP address with your team members. They will use this IP address to access the quiz application running on your laptop.
+
+5. Run the Flask Application
+Start the Flask application on your laptop by running the Python script containing your Flask code. You should see output indicating that the server is running.
+
+6. Access the Quiz
+Your team members can now access the quiz application by entering your local IP address followed by the port number (by default, Flask runs on port 5000) in their web browser. For example, if your local IP address is 192.168.1.100, they would enter http://192.168.1.100:5000.
+
+7. Play the Quiz
+Your team members can now play the quiz on their individual laptops by navigating to the URL provided and following the instructions on the quiz interface.
+
+8. Monitor and Manage the Server
+As the host of the quiz server, you can monitor the server's activity and manage the quiz as needed. Keep an eye on server performance and troubleshoot any issues that may arise.
